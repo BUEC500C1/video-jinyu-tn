@@ -16,9 +16,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip3 install opencv-python
-        sudo apt-get install ffmpeg
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
     - name: Lint with flake8
       run: |
         pip install flake8
