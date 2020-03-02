@@ -6,10 +6,10 @@ Created on Tue Feb 18 17:37:32 2020
 @author: taimaame
 """
 
-from PIL import Image  
-from PIL import ImageDraw  
-import getwordtwitter2
-from PIL import ImageFont  
+#from PIL import Image  
+#from PIL import ImageDraw  
+#import getwordtwitter2
+#from PIL import ImageFont  
 
 def draw_test(username,keyword):  
     
