@@ -7,7 +7,7 @@ Created on Fri Feb 28 17:53:59 2020
 """
 
 
-#from getwordtwitter2 import get_all_tweets
+from getwordtwitter2 import get_all_tweets
 
-#def test_get_all_tweets():
-    #assert get_all_tweets('a','b') != []
+def test_get_all_tweets():
+    assert get_all_tweets('a','b') != []
