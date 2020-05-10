@@ -7,7 +7,7 @@ Created on Thu Feb 20 13:05:12 2020
 """
 
 
-import queue
+import Queue
 import time
 import threading
 from imagestovideo import imagetovideo
@@ -42,7 +42,7 @@ if __name__ == '__main__':
     
     num_of_threads = 3
     # build a new FIFO queue:
-    q = queue.Queue()
+    q = Queue.Queue()
     # build a threadspool:
     threads = []
     # build threads and put them into threads pool
