@@ -16,6 +16,7 @@ jobs:
     - name: Install dependencies
       run: |
         pip3 install opencv-python
+        pip install image
         python -m pip install --upgrade pip
     - name: Lint with flake8
       run: |
